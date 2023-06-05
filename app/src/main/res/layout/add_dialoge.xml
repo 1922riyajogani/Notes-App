@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_250sdp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="@dimen/_6sdp"
+        app:cardCornerRadius="@dimen/_10sdp">
+
+        <EditText
+            android:id="@+id/edttitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_margin="@dimen/_10sdp"
+            android:hint="Title"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="@dimen/_6sdp"
+        app:cardCornerRadius="@dimen/_10sdp">
+
+        <EditText
+            android:id="@+id/edttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:lines="5"
+            android:gravity="top"
+            android:layout_margin="@dimen/_10sdp"
+            android:hint="text...."/>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"/>
+
+</LinearLayout>
